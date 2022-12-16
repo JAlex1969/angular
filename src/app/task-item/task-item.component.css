@@ -1,0 +1,25 @@
+.task {
+    background: #cecbcb;
+    margin:5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    word-wrap: break-word;
+    user-select: none;
+}
+.task.reminder {
+    border-left: 10px solid green;
+}
+.task h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+fa-icon{
+    color:green;
+}
+fa-icon:active {
+    transform: scale(.6);
+}
+fa-icon:hover {
+    color:red;
+}
